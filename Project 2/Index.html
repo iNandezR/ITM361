@@ -5,6 +5,22 @@
         <title>The Cake Is A Lie</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <style>
+            #audio{
+
+            }
+            #about h4{
+                font-size: 120%;
+                text-decoration: underline;
+            }
+            #about{
+
+            }
+            .footer{
+                position: absolute;
+                text-align: center;
+            }
+        </style>
     </head>
 
     <body id="body">
@@ -22,27 +38,33 @@
             </nav>
         </header>
 
-        <section>
-            <p>Test soundbite.</p>
-            <audio src="https://github.com/iNandezR/ITM361/blob/master/Project%201/Windows_95_Startup-Microsoft-2077254053.wav" preload="auto" controls>
-                <h6>Your browser does not support this audio.</h6>
-            </audio>
-        </section>
+        <div id="audio">
+            <section>
+                <p>Test soundbite.</p>
+                <audio src="https://github.com/iNandezR/ITM361/blob/master/Project%201/Windows_95_Startup-Microsoft-2077254053.wav" preload="auto" controls>
+                    <h6>Your browser does not support this audio.</h6>
+                </audio>
+            </section>
+        </div>
 
-        <section>
-            <h4>Brief about Ian Hernandez</h4>
-            <p>
-                I am a U.S. Army Veteran. I am also an IT hobbyist. I have been playing with computers from a young age and have
-                learned and grown as technology has. I like to experiment and learn new skills within the IT field all the time,
-                and will continue to grow in the IT industry. I am attending Illinois Institute of Technology for a bachelors in
-                Information Technology and Management, and am going to start a masters in Cyber Forensics and Security.
-            </p>
-        </section>
+        <div id="about">
+            <section >
+                <h4>Brief about Ian Hernandez</h4>
+                <p>
+                    I am a U.S. Army Veteran. I am also an IT hobbyist. I have been playing with computers from a young age and have
+                    learned and grown as technology has. I like to experiment and learn new skills within the IT field all the time,
+                    and will continue to grow in the IT industry. I am attending Illinois Institute of Technology for a bachelors in
+                    Information Technology and Management, and am going to start a masters in Cyber Forensics and Security.
+                </p>
+            </section>
+        </div>
 
-        <footer>
-            <p>
-                Website Author: Ian Hernandez
-            </p>
-        </footer>
+        <div class="footer">
+            <footer>
+                <p>
+                    Website Author: Ian Hernandez
+                </p>
+            </footer>
+        </div>
     </body>
 </html>
