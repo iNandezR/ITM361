@@ -6,43 +6,30 @@
             <link rel="stylesheet" type="text/css" href="normalize.css">
             <link rel="stylesheet" type="text/css" href="style.css">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-            <style>
-                #title{
-                    font-size: 200%;
-                    padding: 2%;
-                    text-align: center;
-                }
-                h2{
-                    padding: 1%;
-                    font-size: 120%;
-                }
-                ul{
-                    font-size: 80%;
-                }
-                h3{
-                    padding: .5%;
-                }
-            </style>
 		</head>
 
 		<body id="resumepage">
             <header id="header">
-                <img id="logo" src="https://github.com/iNandezR/ITM361/blob/master/Project%201/Logo.png?raw=true"  width="50" alt="Logo" />
-                <nav id ="topnav">
-                    <div id="navdiv">
+                <div class="navlogo">
+                    <img id="logo" src="https://github.com/iNandezR/ITM361/blob/master/Project%202/Logo.png?raw=True"  width="50" alt="Logo" />
+                </div>
+                <div id="navdiv">
+                    <nav id ="topnav">
                         <ul id="navulist">
-                            <li><a href="#index.html">Home</a></li>
-                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#resume.html">Resume</a></li>
                             <li><a href="Projects.html">Projects</a></li>
                             <li><a href="Contact.html">Contact</a></li>
                         </ul>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </header>
 
-		    <section id="title">
-				<h1>Resume</h1>
-			</section>
+            <div class="clear"></div>
+
+            <section class="title">
+                <h1>Resume</h1>
+            </section>
 
             <section id="proficiencies-skills">
                 <h2>Proficiencies and Skills</h2>
@@ -66,35 +53,35 @@
                         </ul>
                 </section>
             </section>
-			<section id="workHistory">
-				<h2>Work History</h2>
-					<section id="dsa">
-						<h3>Douglas Shaw & Associates (2014)</h3>
-						<p> I was a part time Jr. HTML programmer.</p>
-						<section id="jubfunctions">
-							<h5>Job Functions:</h5>
-							<ul>
-								<li>Code email newsletters for clients based off of the predetermined design and artwork</li>
-								<li>Check against Litmus to verify html structure against different browser platforms and email clients</li>
-							</ul>
-						</section>
-					</section>
-					<section id="army">
-						<h3>U.S. Army (2011-2014)</h3>
-						<p>I was an Infantry Fire Team Leader. I was in charge of a team of four.</p>
-						<section id="jubfunctions2">
-							<h5>Job Functions:</h5>
-							<ul>
-								<li>Ensure financial and familial well being.</li>
-								<li>Create and implement training regimens for basic soldier tasks.</li>
-								<li>Provide guidance and conflict resolution to the team.</li>
-								<li>Maintain accountability for the team, weapons, and equipment.</li>
-							</ul>
-						</section>
-					</section>
-			</section>
-			<section id="education">
-				<h2>Education</h2>
+            <section id="workHistory">
+                <h2>Work History</h2>
+                    <section id="dsa">
+                        <h3>Douglas Shaw & Associates (2014)</h3>
+                        <p> I was a part time Jr. HTML programmer.</p>
+                        <section id="jubfunctions">
+                            <h5>Job Functions:</h5>
+                            <ul>
+                                <li>Code email newsletters for clients based off of the predetermined design and artwork</li>
+                                <li>Check against Litmus to verify html structure against different browser platforms and email clients</li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section id="army">
+                        <h3>U.S. Army (2011-2014)</h3>
+                        <p>I was an Infantry Fire Team Leader. I was in charge of a team of four.</p>
+                        <section id="jubfunctions2">
+                            <h5>Job Functions:</h5>
+                            <ul>
+                                <li>Ensure financial and familial well being.</li>
+                                <li>Create and implement training regimens for basic soldier tasks.</li>
+                                <li>Provide guidance and conflict resolution to the team.</li>
+                                <li>Maintain accountability for the team, weapons, and equipment.</li>
+                            </ul>
+                        </section>
+                    </section>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
                 <section id="school">
                     <h3>Illinois Institute of Technology</h3>
                     <section id="currentstatus">
@@ -116,12 +103,17 @@
                         </ul>
                     </section>
                 </section>
-			</section>
+            </section>
 
-			<footer>
-				<p>
-                    Website Author: Ian Hernandez
-				</p>
-			</footer>
+
+            <div class="clear"></div>
+
+            <div id="footer">
+                <footer>
+                    <p>
+                        Website Author: Ian Hernandez
+                    </p>
+                </footer>
+            </div>
 		</body>
 	</html>

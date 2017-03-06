@@ -1,4 +1,3 @@
-
 /*Page CSS*/
 @font-face{
     font-family: 'Open Sans', sans-serif;
@@ -10,34 +9,34 @@ h1,h2,h3,h4,h5,h6,p,li{
 a {
     text-decoration: none;
 }
-* {
+*, html, header {
     margin: 0;
 }
-html {
-    margin: 0;
-}
-body {
-    margin: 0;
-}
-nav {
+nav, img {
     display: block;
 }
-img {
-    display: block;
-}
-header {
-    margin: 0 auto;
+body{
+    background-color: #575757;
+    color: white;
+    font-size: 120%;
 }
 .clear {
     clear: both;
 }
+
+/*========= Nav Bar ==========*/
+
+#header {
+    background-color: #575757;
+}
 #logo{
     display: block;
     float: left;
-    padding: .2em;
     top: 0;
-    width: 10%;
+    padding-right: .5%;
+    width: 5.55%;
     margin: 0;
+    background-color: #3C3F41;
 }
 .navlogo {
     width: 100%;
@@ -52,7 +51,7 @@ header {
     display: inline;
     list-style-type: none;
     color: #C35801;
-    width: 25%;
+    width: 24.1%;
     float: left;
 }
 #topnav a:hover{
@@ -62,19 +61,10 @@ header {
     display: block;
     text-align: center;
     line-height: 1;
-    padding: 1em 2em 1em 2em; /* ~ 10px 5px @ 18px/em */
-    background-color: #3C3F41 ;
+    padding: 1.15em 2em 1.2em 2em;
+    background-color: #3C3F41;
     color: white;
     border-bottom: 0;
-}
-#navdiv{
-    padding-left: 10%;
-    padding-bottom: 2%;
-}
-body{
-    background-color: #3C3F41;
-    color: #BABABA;
-    font-size: 120%;
 }
 #audio{
 
@@ -85,7 +75,15 @@ body{
 #about{
     display: block;
 }
-#indexpage .footer{
-    position: absolute;
+#footer{
     text-align: center;
+    padding-top: 10%;
+    font-size: 60%;
+}
+.title {
+    text-align: center;
+}
+#about .title {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }

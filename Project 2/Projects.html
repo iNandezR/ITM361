@@ -6,72 +6,64 @@
         <link rel="stylesheet" type="text/css" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <style>
-            h1{
-                font-size: 200%;
-                padding: 2%;
-                text-align: center;
-            }
-            h2{
-                padding: 1%;
-                font-size: 120%;
-            }
-            ul{
-                font-size: 80%;
-            }
-            h3{
-                padding: .5%;
-            }
-            section{
-                margin-left: 1%;
-            }
-        </style>
     </head>
 
     <body id="projectspage">
         <header id="header">
-            <img id="logo" src="https://github.com/iNandezR/ITM361/blob/master/Project%201/Logo.png?raw=true"  width="50" alt="Logo" />
-            <nav id ="topnav">
-                <div id="navdiv">
+            <div class="navlogo">
+                <img id="logo" src="https://github.com/iNandezR/ITM361/blob/master/Project%202/Logo.png?raw=True"  width="50" alt="Logo" />
+            </div>
+            <div id="navdiv">
+                <nav id ="topnav">
                     <ul id="navulist">
-                        <li><a href="#index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="resume.html">Resume</a></li>
-                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="#Projects.html">Projects</a></li>
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
 
-        <h1>Projects</h1>
-        <h2>Past Projects</h2>
-        <h3>IIT Test Server Lab</h3>
-        <section>
-            <h4>Purpose: To provide IIT with a virtual lab that can be accessed anywhere for use of research and learning.</h4>
-            <ul>
-                <li>Eucalyptus based</li>
-                <li>Utilizing Clustering to build virtual machine host hardware</li>
-            </ul>
-        </section>
-        <h2>Current Projects</h2>
-        <h3>Home lab</h3>
-        <section>
-            <h4>Purpose: to provide local services such as:</h4>
-            <ul>
-                <li>Firewall</li>
-                <li>VPN</li>
-                <li>Server monitoring</li>
-                <li>Cloud Storage</li>
-                <li>Media services</li>
-                <li>Local DNS services</li>
-                <li>VMware lab for testing purposes</li>
-            </ul>
-        </section>
+        <div class="clear"></div>
 
-        <footer>
-            <p>
-                Website Author: Ian Hernandez
-            </p>
-        </footer>
+        <div class="title">
+            <h1>Projects</h1>
+        </div>
+        <div class="projects">
+            <h2>Past Projects</h2>
+            <h3>IIT Test Server Lab</h3>
+            <section>
+                <h4>Purpose: To provide IIT with a virtual lab that can be accessed anywhere for use of research and learning.</h4>
+                <ul>
+                    <li>Eucalyptus based</li>
+                    <li>Utilizing Clustering to build virtual machine host hardware</li>
+                </ul>
+            </section>
+            <h2>Current Projects</h2>
+            <h3>Home lab</h3>
+            <section>
+                <h4>Purpose: to provide local services such as:</h4>
+                <ul>
+                    <li>Firewall</li>
+                    <li>VPN</li>
+                    <li>Server monitoring</li>
+                    <li>Cloud Storage</li>
+                    <li>Media services</li>
+                    <li>Local DNS services</li>
+                    <li>VMware lab for testing purposes</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="footer">
+            <footer>
+                <p>
+                    Website Author: Ian Hernandez
+                </p>
+            </footer>
+        </div>
     </body>
 </html>
